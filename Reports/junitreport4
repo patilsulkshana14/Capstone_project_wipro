@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="222.845" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-09-07T09:18:53.100628900Z">
+<testcase classname="Open registration page" name="Check for valid registration credential" time="14.661">
+<system-out><![CDATA[
+Given registration page should be open in default browser...................passed
+When click on my account click on register enter details and password.......passed
+And click on forget password................................................passed
+Then registration successfully..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open login page" name="Check for valid login credential" time="13.392">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login.........................................................passed
+Then login successfully.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for valid home" time="23.987">
+<system-out><![CDATA[
+Given Home page.............................................................passed
+When goto home page and click on product....................................passed
+Then Add to cart done successfully..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for valid home" time="33.002">
+<system-out><![CDATA[
+Given Add to cart page should open in default browser.......................passed
+When update quantity for product............................................passed
+Then update quantity done successfully......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Home page" name="Check for valid Home page" time="26.079">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When click on search button eneter the product to search....................passed
+Then search done successfully...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for checkout process" time="33.713">
+<system-out><![CDATA[
+Given open home page in default browser.....................................passed
+When click on checkout......................................................passed
+Then Check out done successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for valid home" time="44.584">
+<system-out><![CDATA[
+Given open Add to cart page.................................................passed
+When remove product from cart...............................................passed
+Then remove product done successfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Home page" name="Check for valid Home page" time="11.935">
+<system-out><![CDATA[
+Given home page should be open..............................................passed
+When click on sort button...................................................passed
+Then sort done successfully.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for checkout process" time="15.643">
+<system-out><![CDATA[
+Given open Shipping page in default browser.................................passed
+When update Shipping details................................................passed
+Then Shipping done successfully.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open home page" name="Check for checkout process" time="5.284">
+<system-out><![CDATA[
+Given open orders page in default browser...................................passed
+When confirm orders.........................................................passed
+Then orders done successfully...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
